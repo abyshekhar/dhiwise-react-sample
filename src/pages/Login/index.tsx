@@ -1,6 +1,6 @@
+import { Button } from "components/ui/button";
+
 const index = () => {
-  return (
-    <div>index</div>
-  )
-}
-export default index
+  return <Button style={{backgroundColor:"aquamarine"}}>Button</Button>;
+};
+export default index;
